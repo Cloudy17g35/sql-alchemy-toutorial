@@ -1,0 +1,8 @@
+SERVER = 'postgres'
+SQL_FLAVOUR = 'postgresql'
+DRIVER = 'psycopg2'
+USER = 'postgres'
+PASSWORD = 'kara2010'
+HOSTNAME = 'localhost'
+DATABASE = 'flats'
+CONNECTION_STRING = f'{SQL_FLAVOUR}+{DRIVER}://{USER}:{PASSWORD}@{HOSTNAME}/{DATABASE}'
